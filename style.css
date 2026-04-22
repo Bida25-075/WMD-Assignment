@@ -53,13 +53,20 @@ p{
     line-height: 60px;
     margin: 25px 0; 
 }
-.btn{
-    display: inline-block;
-    background: black;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
+.explore-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: rgb(7, 7, 7);
+  color: rgb(253, 252, 252);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.explore-btn:hover {
+  background-color: black;
+  color: cyan;
+}
 }
 .header{
     background: radial-gradient(#fff,#fcd6d6);
