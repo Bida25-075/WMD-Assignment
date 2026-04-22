@@ -22,7 +22,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #fffcfc;
+    color: #090909;
 }
 p{
     color: black;
@@ -67,7 +67,7 @@ p{
   background-color: black;
   color: cyan;
 }
-}
+
 .header{
     background: radial-gradient(#fff,#fcd6d6);
     header h1, header h2, header h3, header h4, header h5, header h6 {
