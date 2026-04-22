@@ -22,10 +22,11 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #555;
+    color: #fffcfc;
 }
 p{
-    color: #555;
+    color: black;
+    
 }
 .container{
     max-width: 1300px;
@@ -54,20 +55,26 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: black;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#fcd6d6);
+    header h1, header h2, header h3, header h4, header h5, header h6 {
+  color: white;
+    }
 }
 .header .row{
     margin-top: 65px;
 }
+body {
+  background-color: white; /* You can replace 'lightblue' with any color */
+}
 footer {
-  background-color: #000;
+  background-color: #080808;
   color: #fff;
   text-align: center;
   padding: 20px;
